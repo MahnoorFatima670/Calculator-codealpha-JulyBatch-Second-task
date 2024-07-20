@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+<div class="calculator">
+<form>
+  <div class="display"><input type="text" name="display"></div>
+<div>
+    <input type="button" name="button" value="7" onclick="display.value+='7'" class="seven">
+    <input type="button" name="button" value="8"onclick="display.value+='8'"  class="eight"  >
+    <input type="button" name="button" value="9"onclick="display.value+='9'"  class="nine"   >
+    <input type="button" name="button" value="DEL"onclick="display.value=display.value.toString().slice(0,-1)" class="del">
+</div>
+
+<div>
+    <input type="button" name="button" value="4"  onclick="display.value+='4'"   class="four"  >
+    <input type="button" name="button" value="5"  onclick="display.value+='5'"  class="five"  >
+    <input type="button" name="button" value="6" onclick="display.value+='6'"  class="six"    >
+    <input type="button" name="button" value="+"  onclick="display.value+='+'" class="plus">
+</div>
+
+
+<div>
+    <input type="button" name="button" value="1"  onclick="display.value+='1' " class="one"    >
+    <input type="button" name="button" value="2"  onclick="display.value+='2' "   class="two" >
+    <input type="button" name="button" value="3"  onclick="display.value+='3' " class="threeg"   >
+    <input type="button" name="button" value="-"  onclick="display.value+='-' " class="minus">
+</div>
+
+<div>
+    <input type="button" name="button" value="."   onclick="display.value+='.'" class="dot">
+    <input type="button" name="button" value="0"  onclick="display.value+='0'"  class="seven"  >
+    <input type="button" name="button" value="/"  onclick="display.value+='/'" class="divi">
+    <input type="button" name="button" value="x"  onclick="display.value+='*'" class="mul">
+</div>
+
+<div class="incr">
+    <input type="button" name="button" value="RESET" onclick="display.value=''" class="reset">
+    <input type="button" name="button" value="=" onclick="display.value=eval(display.value)" class="equal">
+</div>
+
+
+
+
+</form>
+
+</div>
+
+
+
+    </section>
+
+</body>
+</body>
+</html>
